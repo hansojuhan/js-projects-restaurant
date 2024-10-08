@@ -1,3 +1,7 @@
+# Notes
+
+## Commands to set everything up
+
 1. Start the project the same way you began the webpack tutorial project, by creating the package.json file and setting up Webpack.
 
 Create package.json:
@@ -66,4 +70,3 @@ Run server:
   npx webpack serve
 
 ---
-
