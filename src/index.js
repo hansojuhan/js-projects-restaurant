@@ -1,1 +1,1 @@
-console.log("tere");
+alert("hei!");
