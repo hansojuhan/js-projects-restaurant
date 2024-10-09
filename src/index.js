@@ -1,4 +1,4 @@
-import image1 from "./resto.webp"; 
+import image1 from "./img/resto.webp"; 
 
 // Generates all the markup inside div#content
 function generateMarkupOnPageLoad() {
