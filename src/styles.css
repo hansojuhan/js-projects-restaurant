@@ -171,3 +171,41 @@ footer h2 {
 
   object-fit: cover;
 }
+
+/* Menu styles */
+.menu-container {
+  display: flex;
+  flex: 1;
+
+  margin: 4rem 0rem;
+}
+
+.menu-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#menu-image {
+ width: 50%;
+ border-radius: 999px;
+}
+
+.menu-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.menu-container p {
+  margin: 0.25rem 0rem;
+}
+
+.menu-container table {
+  width: 90%;
+
+  margin-top: 2rem;
+}
+
+.menu-container table td {
+  padding-bottom: 0.5rem;
+}
