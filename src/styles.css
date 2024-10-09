@@ -101,7 +101,7 @@ nav ul {
   list-style-type: none;
 }
 
-#menu-link {
+.menu-link {
   color: var(--light);
 
   /* Transform on hover */
@@ -110,7 +110,7 @@ nav ul {
   -moz-transition: all 0.3s;
 }
 
-#menu-link:hover {
+.menu-link:hover {
   color: var(--secondary);
 
   cursor: pointer;

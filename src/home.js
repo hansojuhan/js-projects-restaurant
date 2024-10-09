@@ -24,7 +24,8 @@ export function loadNavbar() {
   let homeMenuLink = document.createElement('li');
   let homeMenulinkButton = document.createElement('a');
   homeMenulinkButton.innerText = 'Home';
-  homeMenulinkButton.id = 'menu-link';
+  homeMenulinkButton.id = 'home-link';
+  homeMenulinkButton.classList.add('menu-link');
   homeMenuLink.append(homeMenulinkButton);
   menuList.append(homeMenuLink);
 
@@ -33,6 +34,7 @@ export function loadNavbar() {
   let menuMenulinkButton = document.createElement('a');
   menuMenulinkButton.innerText = 'Menu';
   menuMenulinkButton.id = 'menu-link';
+  menuMenulinkButton.classList.add('menu-link');
   menuMenuLink.append(menuMenulinkButton);
   menuList.append(menuMenuLink);
 
@@ -40,7 +42,8 @@ export function loadNavbar() {
   let aboutMenuLink = document.createElement('li');
   let aboutMenulinkButton = document.createElement('a');
   aboutMenulinkButton.innerText = 'About';
-  aboutMenulinkButton.id = 'menu-link';
+  aboutMenulinkButton.id = 'about-link';
+  aboutMenulinkButton.classList.add('menu-link');
   aboutMenuLink.append(aboutMenulinkButton);
   menuList.append(aboutMenuLink);
 
