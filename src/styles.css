@@ -110,8 +110,23 @@ nav ul {
   cursor: pointer;
 }
 
-
 #title {
   font-size: 4rem;
   color: var(--light);
+}
+
+/* Footer */
+footer {
+  background-color: var(--dark);
+
+  color: var(--light);
+  text-align: center;
+  font-weight: bold;
+
+  padding: 1rem 0rem 3rem;
+  margin: 1rem 0rem 0rem 0rem;
+}
+
+footer h2 {
+  padding-bottom: 1rem;
 }

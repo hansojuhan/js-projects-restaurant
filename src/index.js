@@ -86,6 +86,26 @@ function loadContent() {
   content.append(firstSection);
 }
 
+function loadFooter() {
+  const footer = document.createElement('footer');
+
+  const title = document.createElement('h2');
+  title.innerText = 'ZEN SUSHI';
+
+  const address = document.createElement('p');
+  address.innerText = 'Sushi road 23, 12345, Zen City';
+
+  const phone = document.createElement('p');
+  phone.innerText = 'Phone: 123 456 789';
+
+  const email = document.createElement('p');
+  email.innerText = 'info@sushizen.com';
+
+  footer.append(title, address, phone, email);
+
+  body.append(footer);
+}
+
 // Find the main body
 const body = document.querySelector('body');
 // Find the parent div#content
@@ -93,3 +113,4 @@ const content = document.getElementById('content');
 
 loadNavbar();
 loadContent();
+loadFooter();
