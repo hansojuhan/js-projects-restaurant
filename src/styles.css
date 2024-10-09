@@ -6,8 +6,13 @@
   --secondary: #9022f1; 
   --light: #f6f6f6;
   --dark: #2d2d2d;
+  --very-dark: #131313;
 
   --border-radius: 0.25rem;
+
+  /* Main theme */
+  background-color: var(--dark);
+  color: var(--light);
 }
 
 body {
@@ -92,7 +97,7 @@ nav {
   margin: 1rem 0rem;
   padding: 0rem 1rem;
 
-  background-color: var(--dark);
+  background-color: var(--very-dark);
 }
 
 nav ul {
@@ -123,7 +128,7 @@ nav ul {
 
 /* Footer */
 footer {
-  background-color: var(--dark);
+  background-color: var(--very-dark);
 
   color: var(--light);
   text-align: center;
